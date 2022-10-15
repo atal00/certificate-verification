@@ -1,0 +1,59 @@
+<html><head><meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> ARA COMPUTER CLASSES </title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/qrcode.css">
+
+	</head><body><br><br>
+	<h1 class="strokeme" style="margin-bottom:-65px;">QR Validation<br><br>
+			
+
+		<img src="https://aracomputers.w3spaces.com/student/ara.jpg" height="100px"> 
+			
+	</h1>
+	<form id="regForm" action="javascript:complete();">
+	  
+	  <!-- One "tab" for each step in the form: -->
+	  <div class="tab" style="display: block;"><b>Step 1 :</b> <b><i>Welcome To The Site Of "A.R.A COMPUTER CLASSES"</i><li>kindly verify the Domain if it's aracertificate.ga</b>
+		<p style="margin-left: 350px;">Then Only Press Next.</p>  
+		
+	  </div>
+	  <div class="tab" style="display: none;"><b>Step 2: </b>Match the details from the certificate:
+		<p>Student's Name :<br><b>SAMRAT KUMAR </b></p>
+		<p>Father's Name :<br><b>SANJAY KUMAR PANDEY </b></p>
+		<p>Date Of Birth :<br><b>01-10-2005</b></p>
+		
+	  </div>
+	  <div class="tab"><b>Step 3:</b> Match the Exam details from the certificate:
+		<p>Enrollment No.:<br><b>12011</b></p>		
+		<p>Course Name :<br><b>ADVANCE DIPLOMA IN COMPUTER APPLICATION(12 MONTHS)</b></p>
+		<p>Exam Date :<br><b>18/02/2022</b></p>
+		<p>Percentage :<br><b>83.00%</b></p>
+		<p>Grade :<br><b>A(Very Good)</b></p>
+	  </div>
+	  <div class="tab"><b>Please match if a Photograph maching the given is on the certificate:</b><br><br>
+		<img src="https://aracomputers.w3spaces.com/student/samrat.jpg" height="140">		<br><br>
+
+			<div><a href="student/Certifcate.pdf" target="_new">View Certificate</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="student/Marksheet.pdf" target="_new">View Marksheet</a></div>
+			<br><br>
+			
+	  </div>
+	  <div style="overflow:auto;">
+		<div style="float:right;">
+		  <button type="button" id="prevBtn" onclick="nextPrev(-1)" class="buttonTwo" style="display: none;">Previous</button>
+		  <button type="button" id="nextBtn" onclick="nextPrev(1)" class="buttonTwo">Next</button>
+		</div>
+	  </div>
+	  <!-- Circles which indicates the steps of the form: -->
+	  <div style="text-align:center;margin-top:40px;">
+		<span class="step active"></span>
+		<span class="step"></span>
+		<span class="step"></span>
+		<span class="step"></span>
+	  </div>
+	</form>
+
+	<script src="js/qrcode.js"></script>
+
+	
+	
+</body></html>
